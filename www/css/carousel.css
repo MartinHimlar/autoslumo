@@ -32,6 +32,21 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #06ff00;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #06ff00;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+    color: #fff;
+	text-shadow: #06ff00 1px 1px 2px;
+}
+.navbar-inverse {
+	border-color: #06ff00;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -73,13 +88,38 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+.clearing-top {
+	margin-top: 80px;
+}
+
+footer {
+    background-color: #222;
+    color: #06ff00;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+	vertical-align: middle;
+}
+footer > p {
+	margin: 0px;
+}
+footer > p > a {
+	text-decoration: none;
+	color: #06ff00;
+}
+footer > p > a:hover {
+	text-decoration: none;
+	color: white;
+}
 
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  border-color: #cacaca;
+  box-shadow: #06ff00 0px 0px 1px;
 }
 
 /* Thin out the marketing headings */
@@ -128,4 +168,5 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+  
 }
