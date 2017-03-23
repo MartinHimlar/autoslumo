@@ -32,20 +32,25 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #000;
-    background-color: #06ff00;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-brand:hover {
+    color: #fff;
+    text-shadow: #08213c 1px 1px 5px;
+    background-color: #4a99f2;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #4a99f2;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #06ff00;
-}
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
     color: #fff;
-	text-shadow: #06ff00 1px 1px 2px;
+}
+.navbar-inverse, .navbar-inverse  .navbar-brand{
+    color: #fff;
+	text-shadow: #08213c 1px 1px 2px;
 }
 .navbar-inverse {
-	border-color: #06ff00;
+	border-color: #4a99f2;
+    color: #fff;
 }
 
 
@@ -54,7 +59,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 300px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -64,11 +69,11 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 300px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  height: 500px;
+  height: 300px;
   margin: auto;
 }
 
@@ -94,7 +99,7 @@ body {
 
 footer {
     background-color: #222;
-    color: #06ff00;
+    color: #fff;
     border-radius: 5px;
     height: 100%;
     padding: 10px;
@@ -105,11 +110,11 @@ footer > p {
 }
 footer > p > a {
 	text-decoration: none;
-	color: #06ff00;
+	color: #fff;
 }
 footer > p > a:hover {
 	text-decoration: none;
-	color: white;
+	color: #4a99f2;
 }
 
 
@@ -119,7 +124,7 @@ footer > p > a:hover {
 .featurette-divider {
   margin: 40px 0; /* Space out the Bootstrap <hr> more */
   border-color: #cacaca;
-  box-shadow: #06ff00 0px 0px 1px;
+  box-shadow: #4a99f2 0px 0px 1px;
 }
 
 /* Thin out the marketing headings */
