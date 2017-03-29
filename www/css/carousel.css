@@ -76,7 +76,22 @@ body {
   height: 300px;
   margin: auto;
 }
+@media (max-width: 768px) {
+  .carousel {
+    margin-top: 15px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
 
+  .carousel .item {
+    height: 200px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    height: 200px;
+    margin: auto;
+  }
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -92,9 +107,6 @@ body {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
-}
-.clearing-top {
-	margin-top: 80px;
 }
 
 footer {
